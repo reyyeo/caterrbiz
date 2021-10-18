@@ -1,0 +1,121 @@
+#top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+  z-index: 100;
+  padding: 0px 15px 0px 15px;
+}
+.nav-item {
+  font-size: 15px;
+}
+
+#navbarSupportedContent > .active {
+  color: #bacbc1;
+  font-style: bold;
+}
+
+.nav-item > a {
+  color: black;
+}
+
+.nav-item > a:hover {
+  color: #bacbc1;
+  font-style: bold;
+}
+
+.nav-item > a:active {
+  color: #bacbc1;
+  font-style: bold;
+}
+
+.nav-item > a:focus {
+  color: #bacbc1;
+  font-style: bold;
+}
+
+.border {
+  border-radius: 10px;
+}
+#mixmatch:hover {
+  background-color: #ff896f;
+  color: white;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.input-icons i {
+  position: absolute;
+  color: orange;
+}
+
+.input-icons {
+  width: 100%;
+  /* margin-bottom: 10px; */
+}
+
+.icon {
+  padding: 10px;
+  width: 50px;
+}
+
+.input-field {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+#main > .card {
+  height: 250px;
+  background: url(./images/Bubble_Tea.png) center left no-repeat,
+    url(./images/7c11bbf457a26efc747a056006939f6f.png) center left no-repeat,
+    url(./images/pizza-png-pizza-png-image-3505.png.crdownload) bottom right
+      no-repeat,
+    url(./images/dessert-png-20.png) bottom right no-repeat;
+  background-size: 170px, 400px, 300px, 450px;
+  background-color: #d8e2dc;
+  color: white;
+  /* font-weight: bolder; */
+}
+
+#mixmatch {
+  background-color: white;
+  color: #ff896f;
+  /* font-weight: bolder; */
+  font-size: 25px;
+}
+
+#viewallcat {
+  color: #bacbc1;
+  font-weight: bolder;
+}
+
+button {
+  margin-right: 15px;
+  margin-left: 15px;
+  outline: none;
+  background: rgba(229, 229, 229, 0.2);
+  border-style: none;
+  border-width: 0px;
+}
+
+#menucategory a:link {
+  color: #464646 !important;
+}
+#menucategory a:visited {
+  color: #464646 !important;
+}
+#menucategory a:hover {
+  color: #ff896f !important;
+}
+#menucategory a:focus {
+  color: #ff896f !important;
+}
+
+#menucategory a:active {
+  color: #ff896f !important;
+}
